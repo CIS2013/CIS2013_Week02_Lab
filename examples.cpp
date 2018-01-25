@@ -4,22 +4,31 @@ using namespace std;
 int main(){
 	int room_length = 5;
 	int room_width = 10;
-	float room_radius = 10.0;
-	float room_circle_area = (room_radius * room_radius) * 3.14;
+	// char my_letter = "a";
+	// float room_radius = 10.0;
+	// float room_circle_area = (room_radius * room_radius) * 3.14;
+	bool keep_running = true;
 	
-	// Printing stuff out
-	cout << "Our first number is " << room_length << 
-		endl << "Our second number is " << room_width << endl;
-	// Different math operators + - / * %
-	cout << "If you multiply them you get " << 
-		room_width * room_length << endl;
-	cout << "Unless your rooms a circle " << 
-		 room_circle_area << endl;
+	cout << "Enter your length: ";
+	cin >> room_length;
 	
-	/* Camel Case
-	roomLength
-	  Snake Case
-	room_length */
+	cout << "Enter your width: ";
+	cin >> room_width;
+	
+	// == != > < <= >=
+	if(room_length == room_width){
+		cout << "Length and Width are the same" << endl;
+	} else {
+		cout << "Length and Width are NOT the same" << endl;
+		cout << "Length is: " << room_length << endl;
+		cout << "Width is: " << room_width << endl;
+	}
+	
+	if(room_length > room_width){
+		cout << "Length is greater than width" << endl;
+	} else {
+		cout << "Width is greater than length" << endl;
+	}
 	
 	return 0;
 }
