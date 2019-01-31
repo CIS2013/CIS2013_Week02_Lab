@@ -12,3 +12,15 @@ Email the answers to the following questions to:
 4. What is an example of a low level language?
 5. What is an example of a high level language?
 6. What class of language is C++?
+
+## Code
+
+Write a program that prints out 
+
+   HELLO CIS 2013!!
+
+Name the program file main.cpp and put it into a project folder titled
+
+   CIS2013_Week02_Quiz
+
+Push the completed program to github!
